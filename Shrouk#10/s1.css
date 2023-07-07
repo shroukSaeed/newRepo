@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel{
+    background-image: url('assets/m1.jpg');
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    /* padding: 15px; */
+}
+
+h1{
+    margin: 0px;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 90px;
+
+}
+
+.carousel i{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    color: aliceblue;
+}
+
+.carousel i:nth-child(1){
+    left:20px;
+}
+.carousel i:nth-child(2){
+    right:20px;
+}
+
+.container__images{
+    position: absolute;
+    width: 6%;
+    height: 44vh ;
+    content: '';
+    display: flex;
+    justify-content: space-between;
+
+}
+.diiv{
+    content: '';
+    z-index: 10;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+.active{
+    background-color: violet;
+}

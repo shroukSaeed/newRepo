@@ -1,0 +1,35 @@
+htmlCollection Vs NodeList
+
+htmlCollection...
+هو مجموعة من عناصر الدوكيمنت
+
+نقدر نوصله عن طريق اسمه اة اي دي او اندكس نيم
+
+امثلة ع ميثود بتطلع htmlCollection:
+-getElementByTagName()
+-getElementByClassName()
+
+NodeList
+هو مجموعة من دوكيمنت نود
+
+اقدر اوصله عن طريق انديكس نيم بس 
+
+امثلة بتطلع nodeList
+-getElementsByName()
+-querySelectorAll()
+
+
+
+
+
+.append()
+-بتضيف العنصر في صورة 
+node object or DOMstring
+
+-ملهاش ريترن فاليو
+-بنقدر نضيف بيها اكتر من عنصر
+
+.appendChild()
+بتقبل node object only
+-ليها ريترن فاليو
+-بتضيف single element only

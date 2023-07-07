@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom right, rgb(28, 28, 64) , rgb(127, 127, 95));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    background-color: rgba(28, 28, 28, 0.338);
+    margin: 50px 0px;
+    
+}
